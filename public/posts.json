@@ -12,6 +12,33 @@
       "title": "Learning Nuxt.js",
       "excerpt": "Nuxt.js is a great framework for building modern web apps...",
       "content": "Nuxt.js is a progressive framework based on Vue.js. It helps developers build SEO-friendly and performant web apps."
-    }
+    },
+  {
+    "id": 3,
+    "slug": "vue-tips",
+    "title": "Top 10 Vue.js Tips",
+    "excerpt": "Discover the top 10 tips for working with Vue.js...",
+    "content": "In this post, we will explore the top 10 tips and tricks to enhance your Vue.js development experience."
+  },
+  {
+    "id": 4,
+    "slug": "nuxt-deployment",
+    "title": "Deploying Nuxt.js Applications",
+    "excerpt": "Learn how to deploy your Nuxt.js applications efficiently...",
+    "content": "This guide covers the best practices and steps for deploying Nuxt.js applications to various hosting platforms."
+  },
+  {
+    "id": 5,
+    "slug": "vue3-features",
+    "title": "New Features in Vue 3",
+    "excerpt": "An overview of the new features introduced in Vue 3...",
+    "content": "Vue 3 comes with several new features and improvements. In this post, we will discuss the most significant changes and how to use them."
+  },
+  {
+    "id": 6,
+    "slug": "nuxt-auth",
+    "title": "Authentication in Nuxt.js",
+    "excerpt": "Implementing authentication in Nuxt.js applications...",
+    "content": "This post provides a comprehensive guide on how to implement authentication in your Nuxt.js applications using various strategies."
+  }
   ]
-  

@@ -17,14 +17,14 @@ onMounted(() => {
 
 <template>
   <div>
-    <h2 class="text-3xl font-bold mb-6">Blog Posts</h2>
+    <h2 class="text-3xl font-bold my-6 text-center">Posts</h2>
 
     <div v-if="loading" class="text-gray-500">Loading...</div>
-    <div v-else class="space-y-6">
+    <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="post in posts"
         :key="post.id"
-        class="border p-4 rounded shadow"
+        class="group border m-2 overflow-hidden rounded-2xl shadow-sm text-zinc-700 p-4"
       >
         <h3 class="text-xl font-semibold">{{ post.title }}</h3>
         <p class="text-gray-700">{{ post.excerpt }}</p>
