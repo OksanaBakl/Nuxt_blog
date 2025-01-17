@@ -40,5 +40,12 @@
     "title": "Authentication in Nuxt.js",
     "excerpt": "Implementing authentication in Nuxt.js applications...",
     "content": "This post provides a comprehensive guide on how to implement authentication in your Nuxt.js applications using various strategies."
+  },
+  {
+    "id": 7,
+    "slug": "nuxt-test",
+    "title": "Testing in Nuxt.js",
+    "excerpt": "Implementing testing in Nuxt.js applications...",
+    "content": "This post provides a comprehensive guide on how to implement authentication in your Nuxt.js applications using various strategies."
   }
   ]
