@@ -47,5 +47,12 @@
     "title": "Testing in Nuxt.js",
     "excerpt": "Implementing testing in Nuxt.js applications...",
     "content": "This post provides a comprehensive guide on how to implement authentication in your Nuxt.js applications using various strategies."
+  },
+  {
+    "id": 8,
+    "slug": "vue-router",
+    "title": "Mastering Vue Router",
+    "excerpt": "A comprehensive guide to using Vue Router in your Vue.js applications...",
+    "content": "In this post, we will explore the ins and outs of Vue Router, including setup, navigation guards, and advanced routing techniques."
   }
-  ]
+]
