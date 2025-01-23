@@ -7,7 +7,10 @@ import Modal from '../Modal.vue';
 const route = useRoute()
 
 const colorMode = useColorMode();
-
+// Toggle color mode function
+const toggleColorMode = () => {
+  colorMode.value = colorMode.value === 'dark' ? 'light' : 'dark';
+};
 </script>
 
 <template>
@@ -21,8 +24,14 @@ const colorMode = useColorMode();
       <li>
         <Modal />
       </li>
+      <!-- Color Mode Toggle Button -->
       <li>
-
+        <button
+          @click="toggleColorMode"
+          class="px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-gray-200 transition-colors"
+        >
+          {{ colorMode === 'dark' ? 'Light Mode' : 'Dark Mode' }}
+        </button>
       </li>
     </ul>
   </div>
