@@ -21,14 +21,12 @@ const toggleColorMode = () => {
           {{ navbarData.homeTitle }}
         </NuxtLink>
       </li>
-      <li>
+      <li class="flex items-baseline">
         <Modal />
-      </li>
-      <!-- Color Mode Toggle Button -->
-      <li>
+        <!-- Color Mode Toggle Button -->
         <button
           @click="toggleColorMode"
-          class="px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-gray-200 transition-colors"
+          class="ml-3 px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-gray-200 transition-colors"
         >
           {{ colorMode === 'dark' ? 'Light Mode' : 'Dark Mode' }}
         </button>
