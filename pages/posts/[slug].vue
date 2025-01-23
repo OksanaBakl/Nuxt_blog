@@ -20,10 +20,10 @@ onMounted(() => {
 
 <template>
   <div>
-    <div v-if="loading" class="text-gray-500">Loading...</div>
-    <div v-else-if="post" class="px-4">
+    <div v-if="loading" class="text-gray-500 dark:text-gray-200">Loading...</div>
+    <div v-else-if="post" class="px-4 text-gray-700 dark:text-gray-200">
       <h2 class="text-3xl font-bold mb-4">{{ post.title }}</h2>
-      <p class="text-gray-700">{{ post.content }}</p>
+      <p>{{ post.content }}</p>
       <NuxtLink to="/" class="text-blue-500 hover:underline mt-2 inline-block">Back to all Posts</NuxtLink>
     </div>
     <div v-else class="text-red-500">Post not found!</div>

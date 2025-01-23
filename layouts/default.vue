@@ -5,7 +5,7 @@ import MainFooter from '../components/main/footer.vue'
 
 <template>
     <div class="gd-container font-spacegrotesk">
-      <header class="p-4">
+      <header class="p-4 bg-[#F1F1F1] dark:bg-gray-800 dark:text-gray-200 transition-colors">
         <MainHeader />
       </header>
       <main class="max-w-5xl mx-auto">

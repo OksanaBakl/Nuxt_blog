@@ -26,7 +26,7 @@ const toggleColorMode = () => {
         <!-- Color Mode Toggle Button -->
         <button
           @click="toggleColorMode"
-          class="ml-3 px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-gray-200 transition-colors"
+          class="ml-3 px-4 py-2 rounded bg-gray-800 text-gray-200 dark:bg-[#F1F1F1] dark:text-gray-500 transition-colors"
         >
           {{ colorMode === 'dark' ? 'Light Mode' : 'Dark Mode' }}
         </button>

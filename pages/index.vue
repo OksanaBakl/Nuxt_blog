@@ -46,10 +46,10 @@ onMounted(() => {
       <div
         v-for="post in paginatedPosts"
         :key="post.id"
-        class="group border m-2 overflow-hidden rounded-2xl shadow-sm text-zinc-700 p-4"
+        class="group border m-2 overflow-hidden rounded-2xl shadow-sm text-zinc-700 dark:text-gray-200 p-4"
       >
         <h3 class="text-xl font-semibold">{{ post.title }}</h3>
-        <p class="text-gray-700">{{ post.excerpt }}</p>
+        <p>{{ post.excerpt }}</p>
         <NuxtLink
           :to="`/posts/${post.slug}`"
           class="text-blue-500 hover:underline mt-2 inline-block"
