@@ -89,7 +89,7 @@ const handleSubmit = () => {
     <!-- Modal -->
     <div
       v-if="isModalOpen"
-      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+      class="fixed inset-0 bg-black bg-opacity-50  dark:bg-opacity-85 flex items-center justify-center z-50"
       @click.self="closeModal"
     >
       <div class="bg-[#F1F1F1] dark:bg-gray-800 dark:text-gray-200 w-full max-w-md p-6 rounded shadow-lg relative">
